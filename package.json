@@ -1,0 +1,43 @@
+{
+  "name": "ivona",
+  "description": "IVONA Text-to-Speech SaaS client library for Node.js",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Pilwon Huh",
+    "email": "pilwon@gmail.com"
+  },
+  "homepage": "https://github.com/pilwon/node-ivona",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pilwon/node-ivona.git"
+  },
+  "keywords": [
+    "ivona",
+    "tts",
+    "text-to-speech",
+    "saas",
+    "software-as-a-servie",
+    "speech",
+    "client",
+    "library"
+  ],
+  "dependencies": {
+    "lodash": "~1.3.1",
+    "soap": "~0.2.7"
+  },
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "colors": "~0.6.0-1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-mocha-test": "~0.2.2",
+    "grunt-regarde": "~0.1.1",
+    "matchdep": "~0.1.2",
+    "mocha": "~1.8.2"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "grunt test"
+  }
+}
